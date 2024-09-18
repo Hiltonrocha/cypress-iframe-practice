@@ -1,0 +1,18 @@
+{
+  "name": "iframe_cypress",
+  "version": "1.0.0",
+  "description": "Automated tests to practice interactions with iframes",
+  "main": "cypress.config.js",
+  "scripts": {
+    "lint": "npx standard",
+    "lint:fix": "npx standard --fix",
+    "test:chrome": "cypress run --browser=chrome",
+    "cy:open": "cypress open"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^9.0.1",
+    "cypress": "^13.14.2"
+  }
+}
